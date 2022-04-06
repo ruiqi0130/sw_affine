@@ -18,6 +18,9 @@ p <- c(person("Ruiqi", "Li", role = "aut", email = "ruiqi.li@yale.edu"))
 
 ## Implement your Smith-Waterman Algorithm
 runSW <- function(inputFile = "./input.txt", scoreFile = "./blosum62.txt", openGap = -2, extGap = -1) {
+    openGap = as.numeric(openGap)
+    extGap = as.numeric(extGap)
+    
     ### Read input
     str1 = read.table(inputFile, header = FALSE)[1,]
     str2 = read.table(inputFile,header = FALSE)[2,]
