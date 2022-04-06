@@ -5,7 +5,7 @@
 Install using the command below.
 
 ```R
-librayr(devtools)
+library(devtools)
 install_github("ruiqi0130/sw_affine")
 ```
 
