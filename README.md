@@ -14,6 +14,10 @@ install_github("ruiqi0130/sw_affine")
 ```R
 Rscript --vanilla hw1.R <input file> <score file>
 ```
+example
+```R
+Rscript --vanilla hw1.R input.txt blosum62.txt
+```
 
 ### Necessary input files
 
