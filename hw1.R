@@ -131,7 +131,7 @@ runSW <- function(inputFile = "./input.txt", scoreFile = "./blosum62.txt", openG
     str_output = c(paste(match_str1,collapse = ""),
                    paste(match_align,collapse = ""),
                    paste(match_str2,collapse = ""))
-    outputFile = "test.txt"
+    outputFile = "output.txt"
     cat("-----------\n|Sequences|\n-----------\n", file=outputFile)
     cat("sequence1\n",str_input[1],"\nsequence2\n",str_input[2],"\n", sep = "",
         file = outputFile, append = TRUE)
