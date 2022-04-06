@@ -20,7 +20,7 @@ Rscript --vanilla hw1.R <input file> <score file>
 1. inputFile: 2 lines txt file corresponding to two sequences to be aligned.
 2. scoreFile: matrix txt file, a amino-acid scoring matrix
 
-Two additional optional inputs may be included for the opening gap and gap extension terms. Defaults for these are: `openGap=-2`, `extGap=-1.
+Two additional optional inputs may be included for the opening gap and gap extension terms. Defaults for these are: `openGap=-2`, `extGap=-1`.
 
 ### Outputs
 
